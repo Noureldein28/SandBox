@@ -9,9 +9,10 @@ import requests
 from flask import Flask, jsonify, request
 
 # ============================== CONFIG ====================================
-SANDBOX_AGENT_URLS = ["http://192.168.100.56:5001"]
+SANDBOX_AGENT_URLS = ["http://127.0.0.1:5001"]
 # Pointing to your Mac for the mock webhook test
-BACKEND_TEAM_WEBHOOK_URL = "http://192.168.100.73:8080/internal/analysis-result"
+# BACKEND_TEAM_WEBHOOK_URL = "http://192.168.100.73:8080/internal/analysis-result"
+BACKEND_TEAM_WEBHOOK_URL = "http://localhost:5083/internal/sandbox-callback"
 
 AGENT_API_KEY = "7f3c9a1e6d4b8c2f0a5e7b9d3c1f6a8e2d4b0c9f7e5a1d6"       
 AGENT_HEALTH_TIMEOUT = 5
