@@ -364,9 +364,4 @@ FodyWeavers.xsd
 
 .env
 appsettings.json
-/wwwroot/pharmacyInvoices/
-/wwwroot/pharmacyUploads/
-/wwwroot/pharmacyUploads
-/wwwroot/Uploads
-/wwwroot/RegistrationForm
-EcarePublish/
+
